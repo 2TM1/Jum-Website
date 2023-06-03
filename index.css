@@ -1,0 +1,53 @@
+#intro {
+  height: 100%;
+  background-image: url("https://wallpapers.com/images/hd/kurzgesagt-0lhr5bf1plkek3pe.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+#intro h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#main-logo {
+  margin-right: 32px;
+}
+
+#intro button {
+  padding: 12px;
+  background: none;
+  border: 2px white solid;
+  border-radius: 6px;
+  color: white;
+}
+
+header {
+  display: flex;
+  color: white;
+  background-color: purple;
+}
+
+nav li {
+  color: white;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}

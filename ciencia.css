@@ -1,0 +1,19 @@
+body {
+    padding: 2% 12%;
+}
+
+p {
+    text-align: justify;
+}
+
+ol {
+    text-align: start;
+    list-style-type: none;
+}
+
+ol li {
+    background-color: lightgrey;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}

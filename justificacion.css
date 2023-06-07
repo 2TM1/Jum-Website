@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    margin: 0 12%;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+li {
+    border: 2px white solid;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 12px;
+    background-color: purple;
+    color: white;
+    list-style-type: none;
+    font-size: larger;
+    display: inline-block;
+}

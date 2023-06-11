@@ -1,9 +1,8 @@
-body {
-    text-align: center;
-    margin: 0 12%;
+main {
+    padding: 2% 12%;
 }
 
-ul {
+#puntos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
@@ -11,7 +10,7 @@ ul {
     text-align: center;
 }
 
-li {
+#puntos li {
     border: 2px white solid;
     border-radius: 12px;
     padding: 24px;

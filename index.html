@@ -1,27 +1,33 @@
 <html>
   <head>
+    <link href="global.css" rel="stylesheet" />
     <link href="index.css" rel="stylesheet" />
   </head>
+  <script>
+    function redirectTo(page) {
+      window.location.href = page;
+    }
+  </script>
   <body>
     <header>
       <nav>
         <ul>
-          <li><a href="" id="main-logo">Jump</a></li>
+          <li><a href="index.html" id="main-logo">Jump</a></li>
           <li><a href="ciencia.html">Ciencia</a></li>
           <li><a href="justificacion.html">Por qué</a></li>
           <li><a href="resultados.html">Impacto</a></li>
           <li><a href="mision.html">Misión</a></li>
           <li><a href="creacion.html">Creación</a></li>
-          <li><a href="">Contacto</a></li>
+          <li><a href="#contactos">Contactos</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <div id="intro">
-        <div class="left">
-          <img id="main-img" src="main.png" height="70%" />
+        <div id="main-img">
+          <img src="recursos/main.png" />
         </div>
-        <div id="right">
+        <div id="main-text">
           <h1>Jump</h1>
           <h2>Memoriza conceptos teóricos y destruye tus exámenes</h2>
           <a
@@ -30,13 +36,73 @@
           >
         </div>
       </div>
+      <article>
+        <h1>¿Qué deseas conocer?</h1>
+        <div id="card-holder">
+          <div class="card" onclick="redirectTo('ciencia.html')">
+            <img
+              width="80%"
+              src="https://preview.redd.it/ocvgi27w5iy61.jpg?width=640&crop=smart&auto=webp&s=cd76c1360202b8a1512f3826e69d85349809ad3c"
+            />
+            <h2>Ciencia</h2>
+            <p>
+              Jump utiliza la ciencia de repetición espaciada y recuerdo activo
+              para lograr un aprendizaje eficiente.
+            </p>
+            <a>Descubre más!</a>
+          </div>
+          <div class="card" onclick="redirectTo('justificacion.html')">
+            <img
+              width="80%"
+              src="https://i.pinimg.com/originals/2c/b2/aa/2cb2aa6c4b8aac0be04d52ce2b1cc21a.jpg"
+            />
+            <h2>¿Por qué?</h2>
+            <p>Descubre la problemática que buscamos mitigar.</p>
+            <a>Descubre más!</a>
+          </div>
+          <div class="card" onclick="redirectTo('resultados.html')">
+            <img
+              width="80%"
+              src="https://rare-gallery.com/mocahbig/32615-Kurzgesagt-Minimalist-Stars-SpaceKurzgesagt-HD-Wallpaper.png"
+            />
+            <h2>Impacto</h2>
+            <p>
+              Buscamos darte la mejor herramienta para elevar tus calificaciones
+              y fortalecer tus conocimientos.
+            </p>
+            <a>Descubre más!</a>
+          </div>
+          <div class="card" onclick="redirectTo('mision.html')">
+            <img
+              width="80%"
+              src="https://pbs.twimg.com/media/E6BwH9lXoAMIvaL.jpg:large"
+            />
+            <h2>Misión</h2>
+            <p>
+              Buscamos darte la mejor herramienta para elevar tus calificaciones
+              y fortalecer tus conocimientos.
+            </p>
+            <a>Descubre más!</a>
+          </div>
+          <div class="card" onclick="redirectTo('creacion.html')">
+            <img
+              width="80%"
+              src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/e1ad70d8-3a17-4e90-9c11-81c3e6e24cbf/9e51b0ad-9d7d-4d47-8a46-50a9fc2bc075_rw_1200.gif?h=309e7b3503febf419156888518d585cc"
+            />
+            <h2>Creación</h2>
+            <p>
+              Buscamos darte la mejor herramienta para elevar tus calificaciones
+              y fortalecer tus conocimientos.
+            </p>
+            <a>Descubre más!</a>
+          </div>
+        </div>
+      </article>
     </main>
   </body>
-  <footer>
-    <h1 align="center">Agradeciendo especial a Kurzgesagt</h1>
-    <h2 align="center">
-      Contactanos por correo <br />
-      <b>ipnapp101@gmail.com</b>
-    </h2>
+  <footer id="contactos">
+    <h2>Agradecimiento especial a Kurzgesagt - In a Nutshell</h2>
+    <h2>Contactanos por correo</h2>
+    <b>ipnapp101@gmail.com</b>
   </footer>
 </html>

@@ -2,11 +2,32 @@
     font-family: sans-serif;
 }
 
-body {
-    padding: 12px;
-    text-align: center;
-}
-
 p {
     font-size: large;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+  display: flex;
+  color: white;
+  background-color: #8C0335;
+}
+  
+nav li {
+  color: white;
+  display: inline-block;
+  margin-right: 12px;
+}
+  
+nav a, nav a:visited, nav a:active {
+  color: white;
+  text-decoration: none;
+}
+
+#main-logo {
+  margin-right: 32px;
 }

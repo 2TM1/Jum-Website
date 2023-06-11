@@ -1,14 +1,14 @@
-body {
-    padding: 5% 12%;
+main {
+    padding: 2% 12%;
 }
 
-ul {
+#objetivos {
     font-size: larger;
     list-style-type: none;
     text-align: start;
 }
 
-li {
+#objetivos li {
     background-color: lightgrey;
     padding: 12px;
     margin-bottom: 12px;

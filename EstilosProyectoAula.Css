@@ -1,0 +1,7 @@
+.Menu{
+           Border: 1px Solid #ccc; /*Esta linea pone borde al contenedor*/
+           Float: Center; /*Esta linea ajusta el contenedor al tamaño del contenido*/
+           Display: Flex; /*Esta linea hace flexible el contenedor*/
+           Background-Color: Aqua; /*Este comando le pone un color de fondo al contenedor*/
+           Border-Radius: 30px 30px 30px 30px; /*Este comando crea bordes redondeados*/
+}
